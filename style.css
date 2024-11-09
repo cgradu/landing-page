@@ -82,7 +82,6 @@ a {
     object-fit: cover;
 }
 
-
 .section-2 {
     color: #1F2937;
     font-size: 36px;
@@ -94,7 +93,19 @@ a {
 
 .images {
     display: flex;
-    
+    justify-content: space-evenly;
+    gap: 52px;
+}
+
+.info {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    max-width: 200px;
+}
+
+.info .subtext {
+    color: #b2b4b8;
 }
 
 img {
