@@ -44,19 +44,19 @@ a {
 }
 
 /* text contains title, subtext, and the sign-up button */
-.text {
+.section-1 .text {
     display: flex;
     flex-wrap: wrap;
     width: 450px;
     gap: 8px;
 }
 
-.title {
+.section-1 .title {
     font-size: 48px;
     font-weight: 900;
 }
 
-.subtext {
+.section-1 .subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -125,9 +125,27 @@ a {
 
 .section-3 {
     background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+}
+
+.section-3 .text {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0;
+}
+
+.section-3 .title {
     font-size: 36px;
-    font: light italic;
+    font-family: light italic;
     color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-3 .subtext {
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* .section-4 {
