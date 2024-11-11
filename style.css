@@ -19,6 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 100px;
 }
 
 /* ul and a is for the links in the header */
@@ -38,7 +39,7 @@ a {
 /* hero contains text and the image */
 .hero {
     display: flex;
-    padding: 100px 0;
+    padding: 100px 100px;
     gap: 100px;
     min-height: auto;
 }
@@ -157,16 +158,44 @@ a {
     padding-right: 24px; 
 }
 
-/* .section-4 {
-
-} */
-
+/* section-4 */
 .box {
     background-color: #3882F6;
+    margin: 5% 12%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    border-radius: 8px;
 }
 
+.box .text {
+    color: white;
+    padding: 48px 32px;
+
+}
+
+.box .title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.box .subtext {
+    font-weight: lighter;
+}
+
+.box .sign-up {
+    border: 2px solid white;
+    border-radius: 8px;
+    align-self: center;
+}
+
+/* footer */
 .footer {
     font-size: 18px;
     color: #E5E7EB;
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 0;
 }
