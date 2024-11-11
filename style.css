@@ -126,19 +126,25 @@ a {
 .section-3 {
     background-color: #E5E7EB;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .section-3 .text {
     display: flex;
     flex-direction: column;
-    padding: 48px 0;
+    padding: 82px 0px;
+    /* width: 45% means that the .text div will be
+     45% of the width of the container that encloses it.
+    In this case the.section-3 div */
+    width: 45%;
+
 }
 
 .section-3 .title {
     font-size: 36px;
-    font-family: light italic;
+    font-style: italic;
     color: #1F2937;
+    font-weight: lighter;
     display: flex;
     flex-wrap: wrap;
 }
@@ -146,6 +152,9 @@ a {
 .section-3 .subtext {
     display: flex;
     justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+    padding-right: 24px; 
 }
 
 /* .section-4 {
